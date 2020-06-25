@@ -1,0 +1,11 @@
+>>> a = 'ana are mere si nu are pere'
+>>> count=1
+>>> for i in string:
+	if i==" ":
+		count+=1
+		print(count)
+    
+>>> a = 'ana are mere si nu are pere'
+>>> res = len(a.split())
+>>> print("the number is : " + str(res))
+the number is : 7

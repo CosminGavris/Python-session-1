@@ -1,0 +1,9 @@
+def f(string):
+	o=[]
+	str2=string
+	if (len(string)/2!=0):
+		str2=str2+'_'
+		while str2:
+			o.append(str2[:2])
+			str2=str2[2:]
+			print(o)
